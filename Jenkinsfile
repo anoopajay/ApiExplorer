@@ -1,7 +1,7 @@
 def CONTAINER_NAME="janrain-apiexplorer"
 def CONTAINER_TAG="latest"
 def DOCKER_HUB_USER="anoopajay86"
-def HTTP_PORT="8888"
+def HTTP_PORT="8033"
 
 node {
 
