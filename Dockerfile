@@ -10,9 +10,6 @@ COPY . .
 # Install node dependencies
 RUN npm install
 
-# Build the required assets
-RUN npm build
-
 # replace this with your application's default port
 EXPOSE 8033
  
