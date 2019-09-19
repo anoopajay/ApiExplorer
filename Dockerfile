@@ -1,5 +1,5 @@
-# Use the 10.15 LTS version of Node
-FROM node:10
+# Use the 8.16 LTS version of Node
+FROM node:8.16
  
 # Define the working directory
 WORKDIR /usr/src
