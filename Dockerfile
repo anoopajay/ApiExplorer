@@ -1,5 +1,5 @@
 # Use the 10.15 LTS version of Node
-FROM node:10.15
+FROM node:10
  
 # Define the working directory
 WORKDIR /usr/src
@@ -10,8 +10,11 @@ COPY . .
 # Install node dependencies
 RUN npm install
 
+# Build the required assets
+RUN npm build
+
 # replace this with your application's default port
-EXPOSE 8888
+EXPOSE 8033
  
 # The command the container will run
 CMD ["npm", "run", "start"]
