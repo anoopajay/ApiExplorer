@@ -7,7 +7,7 @@ Api Explorer is an open source self-service tool. The goal is to provide a graph
 
 # License
 
-ApiExplorer is licensed under the MIT License. See the LICENSE file for more details..
+ApiExplorer is licensed under the MIT License. See the LICENSE file for more details...
 
 # Instructions
 
